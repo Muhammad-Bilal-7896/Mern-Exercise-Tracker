@@ -40,7 +40,7 @@ export default function RecordList() {
     getRecords();
 
     return; 
-  }, [records.length]);
+  });
 
   // This method will delete a record
   async function deleteRecord(id) {
